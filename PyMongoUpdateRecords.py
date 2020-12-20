@@ -7,3 +7,4 @@ db = cluster["school"]
 collection = db["students"]
 
 results = collection.update_many({"userId":6}, {"$set":{"lastName":"Srivastava"}})
+cluster.close()

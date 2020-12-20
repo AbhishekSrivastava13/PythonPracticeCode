@@ -9,3 +9,4 @@ collection = db["students"]
 results = collection.delete_one({"userId": 4})
 
 print(results)
+cluster.close()

@@ -9,3 +9,4 @@ collection = db["students"]
 results = collection.count_documents({})
 
 print(results)
+cluster.close()

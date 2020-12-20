@@ -10,3 +10,4 @@ results = collection.find({"firstName":"Abhi","userId":6}) # here , plays AND op
 
 for result in results:
     print(result)
+cluster.close()

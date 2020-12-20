@@ -29,3 +29,5 @@ collection.insert_many([
     "Age" : 28
 }
 ])
+
+cluster.close()
