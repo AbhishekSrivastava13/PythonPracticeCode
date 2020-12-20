@@ -10,4 +10,4 @@ results = collection.find()
 
 for result in results:
     print(result)
-    print(1)
+    print(2)
